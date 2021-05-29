@@ -6,7 +6,6 @@ Welcome to {{ cookiecutter.project_title }}'s documentation!
 
    readme
    installation
-   usage
    modules
    changelog
 
