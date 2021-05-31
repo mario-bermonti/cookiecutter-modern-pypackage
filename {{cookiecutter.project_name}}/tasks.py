@@ -173,6 +173,12 @@ def docs(c, serve=False, open_browser=False):
         _run(c, f"poetry run watchmedo shell-command -p '*.rst;*.md' -c '{build_docs}' -R -D .")
 
 
+@task(pre=[format_, tests, lint, mypy])
+def dev_tasks(c):
+    # type: (Context) -> None
+    """Run all development tasks."""
+
+
 @task(
     help={
         "part": "Part of the version to be bumped.",
