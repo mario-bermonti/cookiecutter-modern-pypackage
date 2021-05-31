@@ -136,3 +136,5 @@ modern-python-boilerplate/
 
 # Code editors
 .vscode
+
+*.DS_Store*
