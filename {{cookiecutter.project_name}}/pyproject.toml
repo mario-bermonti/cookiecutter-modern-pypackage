@@ -82,7 +82,6 @@ branch = true
 source = ["{{ cookiecutter.project_slug }}"]
 
 [tool.coverage.report]
-fail_under = 100
 exclude_lines = [
   "pragma: no cover",
   "def __repr__",
