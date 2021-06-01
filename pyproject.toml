@@ -7,7 +7,7 @@ license = "MIT"
 readme = "README.md"
 homepage = "https://github.com/fedejaure/cookiecutter-modern-pypackage"
 repository = "https://github.com/fedejaure/cookiecutter-modern-pypackage"
-documentation = "https://cookiecutter-modern-pypackage.readthedocs.io"
+documentation = "https://cookiecutter-modern-python-package.readthedocs.io/en/latest/"
 keywords=["cookiecutter", "template", "package"]
 classifiers=[
     "Development Status :: 4 - Beta",
