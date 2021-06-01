@@ -16,7 +16,7 @@ license = "{{ cookiecutter.open_source_license }}"
 readme = "README.md"
 homepage = "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_name }}"
 repository = "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_name }}"
-documentation = "https://{{ cookiecutter.project_name }}.readthedocs.io"
+documentation = "https://{{ cookiecutter.project_name }}.readthedocs.io/en/latest/"
 keywords = ["{{ cookiecutter.project_name }}"]
 classifiers=[
     "Development Status :: 2 - Pre-Alpha",
