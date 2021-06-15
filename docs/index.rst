@@ -10,6 +10,7 @@ Getting Started
    readme
    tutorial
    changelog
+   Code of Conduct <CODE_OF_CONDUCT>
 
 Basics
 ------

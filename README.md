@@ -60,6 +60,15 @@ Then:
 
 For more details, see the [tutorial][tutorial].
 
+## Contributing to this project
+  All contributions are welcome!
+
+  This is a beginner-friendly project so don't hesitate to ask any questions or get in touch
+  with the project's maintainers.
+
+  Please review the [project's code of conduct][code_conduct] before making
+  any contributions.
+
 ## Credits
 
 This cookiecutter was built for learning purpose and inspired by:
@@ -94,3 +103,4 @@ This cookiecutter was built for learning purpose and inspired by:
 [codecov]: https://codecov.io/
 [pypi]: https://pypi.org/
 [testpypi]: https://test.pypi.org/
+[code_conduct]: ./CODE_OF_CONDUCT.md
