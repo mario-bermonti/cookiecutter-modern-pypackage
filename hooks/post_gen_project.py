@@ -13,7 +13,9 @@ def remove_file(filepath: Union[str, Path]) -> None:
     Path.unlink(PROJECT_DIR / filepath)
 
 
-def add_symlink(path: Path, target: Union[str, Path], target_is_directory: bool = False) -> None:
+def add_symlink(
+    path: Path, target: Union[str, Path], target_is_directory: bool = False
+) -> None:
     """Add symbolic link to target."""
     if path.is_symlink():
         path.unlink()
