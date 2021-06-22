@@ -107,4 +107,4 @@ This cookiecutter was built for learning purpose and inspired by:
 [pypi]: https://pypi.org/
 [testpypi]: https://test.pypi.org/
 [code_conduct]: ./CODE_OF_CONDUCT.md
-[contributing_guide]: ./docs/contributing.md
+[contributing_guide]: ./contributing.md
