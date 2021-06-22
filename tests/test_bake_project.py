@@ -11,7 +11,9 @@ import pytest
 from cookiecutter.utils import rmtree
 from pytest_cookies.plugin import Cookies, Result
 
-skip_on_windows = pytest.mark.skipif(sys.platform == "win32", reason="does not run on windows")
+skip_on_windows = pytest.mark.skipif(
+    sys.platform == "win32", reason="does not run on windows"
+)
 
 COOKIE_CONTEXT_NOT_OPEN_SOURCE = {"open_source_license": "Not open source"}
 COOKIE_CONTEXT_CLI = {"command_line_interface": "Click"}
@@ -92,7 +94,9 @@ def test_bake_with_defaults(cookies: Cookies) -> None:
 
 def test_bake_not_open_source(cookies: Cookies) -> None:
     """Test bake not open-source project."""
-    with bake_in_temp_dir(cookies, extra_context=COOKIE_CONTEXT_NOT_OPEN_SOURCE) as result:
+    with bake_in_temp_dir(
+        cookies, extra_context=COOKIE_CONTEXT_NOT_OPEN_SOURCE
+    ) as result:
         assert result.project.isdir()
         assert result.exit_code == 0
         assert result.exception is None
