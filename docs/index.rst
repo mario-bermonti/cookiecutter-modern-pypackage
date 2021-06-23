@@ -11,6 +11,7 @@ Getting Started
    tutorial
    changelog
    Code of Conduct <CODE_OF_CONDUCT>
+   contributing
 
 Basics
 ------

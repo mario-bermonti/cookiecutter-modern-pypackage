@@ -63,6 +63,9 @@ For more details, see the [tutorial][tutorial].
 ## Contributing to this project
   All contributions are welcome!
 
+  Will find a detailed description of all the ways you can contribute to cookiecutter-modern-pypackage in
+  [the contributing guide][contributing_guide].
+
   This is a beginner-friendly project so don't hesitate to ask any questions or get in touch
   with the project's maintainers.
 
@@ -104,3 +107,4 @@ This cookiecutter was built for learning purpose and inspired by:
 [pypi]: https://pypi.org/
 [testpypi]: https://test.pypi.org/
 [code_conduct]: ./CODE_OF_CONDUCT.md
+[contributing_guide]: ./contributing.md
