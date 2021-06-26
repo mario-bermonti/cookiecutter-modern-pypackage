@@ -59,6 +59,7 @@ cookiecutter = "^1.7.2"
 pytest-cookies = {git = "https://github.com/jayvdb/pytest-cookies.git", rev = "rm-pins"}
 watchdog = {version = "^2.0.2", extras = ["watchmedo"]}
 sphinx-rtd-theme = "^0.5.2"
+sphinx-markdown-tables = "^0.0.15"
 
 [tool.flakehell]
 format = "grouped"
