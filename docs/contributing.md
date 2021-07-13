@@ -215,10 +215,10 @@ improve the probability that your changes are accepted.
 - It is recommended to open an issue before starting work on anything. This will allow a chance to
   talk it over with the maintainers and validate your approach.
 
-<!-- ## Releasing cookiecutter-modern-pypackage -->
+## Releasing cookiecutter-modern-pypackage
 
-<!-- Maintainers, please review [the guide for releasing new versions][release_guide] -->
-<!-- of cookiecutter-modern-pypackage on Github and Pypi. -->
+Maintainers, please review [the guide for releasing new versions][release_guide]
+of cookiecutter-modern-pypackage on Github and Pypi.
 
 
 <!-- Credits -->
@@ -232,4 +232,4 @@ improve the probability that your changes are accepted.
 [download_python]: https://www.python.org/downloads/
 [cookiecutter-modern-pypackage_gh]: https://github.com/mario-bermonti/cookiecutter-modern-pypackage
 [commit_guide]: https://chris.beams.io/posts/git-commit/
-<!-- [release_guide]: ./release_guide.md -->
+[release_guide]: ./release_guide.md
