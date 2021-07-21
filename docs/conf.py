@@ -9,8 +9,8 @@
 # -- Project information -----------------------------------------------------
 
 project = "cookiecutter-modern-pypackage"
-copyright = "2020, Federico Jaureguialzo"  # noqa: A001
-author = "Federico Jaureguialzo"
+copyright = "2021, Mario E. Bermonti Pérez"  # noqa: A001
+author = "Mario E. Bermonti Pérez"
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the

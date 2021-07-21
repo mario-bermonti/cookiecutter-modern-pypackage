@@ -2,11 +2,11 @@
 name = "cookiecutter-modern-pypackage"
 version = "1.2.2"
 description = "Cookiecutter template for a modern Python package."
-authors = ["Federico Jaureguialzo <fedejaure@gmail.com>"]
+authors = ["Mario E. Bermonti Pérez <mbermonti1132@gmail.com>"]
 license = "MIT"
 readme = "README.md"
-homepage = "https://github.com/fedejaure/cookiecutter-modern-pypackage"
-repository = "https://github.com/fedejaure/cookiecutter-modern-pypackage"
+homepage = "https://github.com/mario-bermonti/cookiecutter-modern-pypackage"
+repository = "https://github.com/mario-bermonti/cookiecutter-modern-pypackage"
 documentation = "https://cookiecutter-modern-python-package.readthedocs.io/en/latest/"
 keywords=["cookiecutter", "template", "package"]
 classifiers=[
@@ -27,7 +27,7 @@ classifiers=[
 ]
 
 [tool.poetry.urls]
-"Bug Tracker" = "https://github.com/fedejaure/cookiecutter-modern-pypackage/issues"
+"Bug Tracker" = "https://github.com/mario-bermonti/cookiecutter-modern-pypackage/issues"
 
 [tool.poetry.dependencies]
 python = "<3.10,>=3.6.1"
@@ -63,7 +63,7 @@ sphinx-markdown-tables = "^0.0.15"
 
 [tool.flakehell]
 format = "grouped"
-max_line_length = 88 
+max_line_length = 88
 show_source = true
 docstring-convention = "google"
 extended_default_ignore = []  # added to temporarily fix flakehell issue
