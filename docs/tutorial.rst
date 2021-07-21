@@ -4,7 +4,7 @@ Tutorial
 .. note:: Did you find any of these instructions confusing? `Edit this file`_
           and submit a pull request with your improvements!
 
-.. _`Edit this file`: https://github.com/fedejaure/cookiecutter-modern-pypackage/blob/master/docs/tutorial.rst
+.. _`Edit this file`: https://github.com/mario-bermonti/cookiecutter-modern-pypackage/blob/master/docs/tutorial.rst
 
 To start with, you will need a `GitHub account`_ and an account on `PyPI`_. Create these before you get started on this tutorial. If you are new to Git and GitHub, you should probably spend a few minutes on some of the tutorials at the top of the page at `GitHub Help`_.
 
@@ -35,7 +35,7 @@ Use cookiecutter, pointing it at the cookiecutter-pypackage repo:
 
 .. code-block:: bash
 
-    $ cookiecutter gh:fedejaure/cookiecutter-modern-pypackage --checkout v1.2.2
+    $ cookiecutter gh:mario-bermonti/cookiecutter-modern-pypackage --checkout v1.2.2
 
 You'll be asked to enter a bunch of values to set the package up.
 If you don't know what to enter, stick with the defaults.
@@ -79,7 +79,7 @@ Install the new project's local development requirements inside a virtual enviro
 Step 5: Set Up Codecov
 ----------------------
 
-`Codecov`_ provides highly integrated tools to group, merge, archive, and compare coverage reports. 
+`Codecov`_ provides highly integrated tools to group, merge, archive, and compare coverage reports.
 
 Log into your account at `Codecov`_. If you don't have one, create one and log into it.
 
@@ -111,7 +111,7 @@ The Python Package Index or `PyPI`_ is the official third-party software reposit
 
 `TestPyPI`_ is a separate instance of the Python Package Index (`PyPI`_) that allows you to try out the distribution tools and process without worrying about affecting the real index.
 
-Log into your account at `PyPI`_ and `TestPyPI`_. Go to Account Settings and generate an API tokens. 
+Log into your account at `PyPI`_ and `TestPyPI`_. Go to Account Settings and generate an API tokens.
 
 Go to the repository settings on GitHub, and add tow secrets named `PYPI_TOKEN` and `TEST_PYPI_TOKEN` with the tokens that you just generated.
 
@@ -125,4 +125,4 @@ Having problems?
 
 Visit our `Issues`_ page and create a new Issue. Be sure to give as much information as possible.
 
-.. _`Issues`: https://github.com/fedejaure/cookiecutter-modern-pypackage/issues
+.. _`Issues`: https://github.com/mario-bermonti/cookiecutter-modern-pypackage/issues

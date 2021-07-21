@@ -1,9 +1,9 @@
 # Cookiecutter Modern PyPackage
 
-[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/fedejaure/cookiecutter-modern-pypackage?logo=github)](https://github.com/fedejaure/cookiecutter-modern-pypackage/releases)
+[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/mario-bermonti/cookiecutter-modern-pypackage?logo=github)](https://github.com/mario-bermonti/cookiecutter-modern-pypackage/releases)
 [![Python Version](https://img.shields.io/badge/python-3.6%20%7C%203.7%20%7C%203.8%20%7C%203.9-blue?logo=python)](https://www.python.org/)
 [![License](https://img.shields.io/badge/license-MIT-brightgreen)](https://opensource.org/licenses/MIT)
-[![Tests](https://github.com/fedejaure/cookiecutter-modern-pypackage/workflows/tests/badge.svg)](https://github.com/fedejaure/cookiecutter-modern-pypackage/actions?workflow=tests)
+[![Tests](https://github.com/mario-bermonti/cookiecutter-modern-pypackage/workflows/tests/badge.svg)](https://github.com/mario-bermonti/cookiecutter-modern-pypackage/actions?workflow=tests)
 [![Read the Docs](https://readthedocs.org/projects/cookiecutter-modern-python-package/badge/?version=latest)](https://cookiecutter-modern-python-package.readthedocs.io/en/latest/)
 [![Black](https://img.shields.io/badge/code%20style-black-000000)](https://github.com/psf/black)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
@@ -11,7 +11,7 @@
 
 [Cookiecutter][cookiecutter] template for a modern Python package.
 
-* GitHub repo: <https://github.com/fedejaure/cookiecutter-modern-pypackage.git>
+* GitHub repo: <https://github.com/mario-bermonti/cookiecutter-modern-pypackage.git>
 * Documentation: <https://cookiecutter-modern-python-package.readthedocs.io/en/latest/>
 * Free software: MIT license
 
@@ -45,7 +45,7 @@ pip install -U cookiecutter
 Generate a Python package project:
 
 ```
-cookiecutter gh:fedejaure/cookiecutter-modern-pypackage --checkout v1.2.2
+cookiecutter gh:mario-bermonti/cookiecutter-modern-pypackage --checkout v1.2.2
 ```
 
 Then:

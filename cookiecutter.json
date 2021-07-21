@@ -1,7 +1,7 @@
 {
-  "full_name": "Federico Jaureguialzo",
-  "email": "fedejaure@example.com",
-  "github_username": "fedejaure",
+  "full_name": "Jean Piaget",
+  "email": "jpiaget@example.com",
+  "github_username": "jpiaget",
   "project_name": "modern-python-boilerplate",
   "project_slug": "{{ cookiecutter.project_name.lower().replace('-', '_').replace('-', '_') }}",
   "project_title": "{{ cookiecutter.project_name.replace('-', ' ').title() }}",
