@@ -76,10 +76,11 @@ For more details, see the [tutorial][tutorial].
 
 This cookiecutter is a fork of [fedejaure's][original_cookie]
 awesome python package template. It uses most of fedejaure's code and configuration,
-but it has been adapted so it is easier to used by scientists who have limited
-technical background in programming. Please do checkout
-[fedejaure's][original_cookie] template as it is great and may even be better
-for your needs.
+but it has been adapted so it is easier to use by scientists who have limited
+technical background in programming.
+
+Please do checkout [fedejaure's][original_cookie] template as it is great and may even be better
+suited for your needs.
 
 This template is also influenced by these awesome projects:
 
