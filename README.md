@@ -74,11 +74,19 @@ For more details, see the [tutorial][tutorial].
 
 ## Credits
 
-This cookiecutter was built for learning purpose and inspired by:
+This cookiecutter is a fork of [fedejaure's][original_cookie]
+awesome python package template. It uses most of fedejaure's code and configuration,
+but it has been adapted so it is easier to used by scientists who have limited
+technical background in programming. Please do checkout
+[fedejaure's][original_cookie] template as it is great and may even be better
+for your needs.
+
+This template is also influenced by these awesome projects:
 
 * [audreyr/cookiecutter-pypackage][audreyr/cookiecutter-pypackage]: Cookiecutter template for a Python package.
 * [briggySmalls/cookiecutter-pypackage][briggySmalls/cookiecutter-pypackage]: A fork from [audreyr/cookiecutter-pypackage][audreyr/cookiecutter-pypackage] using Poetry for package management, with linting, formatting and more.
 * [hypermodern-python][hypermodern-python]: Hypermodern Python article series.
+* [TezRomacH/python-package-template][tezromach]: Your next Python package needs a bleeding-edge project structure.
 
 [cookiecutter]: https://github.com/cookiecutter/cookiecutter
 [poetry]: https://python-poetry.org/
@@ -108,3 +116,5 @@ This cookiecutter was built for learning purpose and inspired by:
 [testpypi]: https://test.pypi.org/
 [code_conduct]: ./CODE_OF_CONDUCT.md
 [contributing_guide]: ./contributing.md
+[original_cookie]: https://github.com/fedejaure/cookiecutter-modern-pypackage
+[TezRomacH]: https://github.com/TezRomacH/python-package-template
