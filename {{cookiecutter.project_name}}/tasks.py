@@ -157,20 +157,23 @@ def coverage(c, fmt="report", open_browser=False):
 
 @task(
     help={
-        "serve": "Build the docs watching for changes",
-        "open_browser": "Open the docs in the web browser",
+        "serve": "Build the docs watching for changes (Default=True)",
+        "open_browser": "Open the docs in the web browser (Default=True)",
     }
 )
-def docs(c, serve=False, open_browser=False):
+def docs(c, serve=True, open_browser=True):
     # type: (Context, bool, bool) -> None
     """Build documentation."""
-    _run(c, f"sphinx-apidoc -o {DOCS_DIR} {SOURCE_DIR}")
     build_docs = f"sphinx-build -b html {DOCS_DIR} {DOCS_BUILD_DIR}"
     _run(c, build_docs)
     if open_browser:
         webbrowser.open(DOCS_INDEX.absolute().as_uri())
     if serve:
-        _run(c, f"poetry run watchmedo shell-command -p '*.rst;*.md' -c '{build_docs}' -R -D .")
+        options = "shell-command -p '*.rst;*.md' -c '{build_docs}' -R -D ."
+        _run(
+            c,
+            f"poetry run watchmedo {options}",
+        )
 
 
 @task(pre=[format_, tests, lint, mypy])

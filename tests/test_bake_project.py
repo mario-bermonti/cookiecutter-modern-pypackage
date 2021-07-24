@@ -154,4 +154,6 @@ def test_bake_and_run_invoke(cookies: Cookies, extra_context: Dict[str, str]) ->
 )
 def test_bake_and_build_docs(cookies: Cookies, extra_context: Dict[str, str]) -> None:
     """Test bake the project and check invoke docs task."""
-    _test_bake_and_run_invoke_tasks(cookies, extra_context, ["docs"])
+    _test_bake_and_run_invoke_tasks(
+        cookies, extra_context, ["docs --no-open-browser --no-serve"]
+    )
