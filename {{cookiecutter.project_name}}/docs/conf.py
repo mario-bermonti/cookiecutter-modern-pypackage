@@ -39,7 +39,14 @@ extensions = [
     "sphinx.ext.napoleon",
     "recommonmark",
     "sphinx_rtd_theme",
+    "autodocsumm",  # generate summary of class attributes
 ]
+
+# Config for extensions
+###################
+# autodocsumm config
+autodoc_default_options = {"autosummary": True}
+
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ["_templates"]
