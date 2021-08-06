@@ -90,7 +90,10 @@ def hooks(c):
     _run(c, "poetry run pre-commit run --all-files")
 
 
-@task(name="format", help={"check": "Checks if source is formatted without applying changes"})
+@task(
+    name="format",
+    help={"check": "Checks if source is formatted without applying changes"},
+)
 def format_(c, check=False):
     # type: (Context, bool) -> None
     """Format code."""
@@ -142,7 +145,7 @@ def tests(c):
 @task(
     help={
         "fmt": "Build a local report: report, html, json, annotate, html, xml.",
-        "open_browser": "Open the coverage report in the web browser (requires --fmt html)",
+        "open_browser": "Open the cov report in the web browser (requires --fmt html)",
     }
 )
 def coverage(c, fmt="report", open_browser=False):

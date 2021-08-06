@@ -8,8 +8,9 @@ from {{ cookiecutter.project_slug }} import __version__
 @click.version_option(version=__version__)
 def main() -> int:
     """Console script for {{ cookiecutter.project_name }}."""
-    click.echo("Replace this message by putting your code into {{ cookiecutter.project_slug }}.cli.main")
-    click.echo("See click documentation at https://click.palletsprojects.com/")
+    click.echo("This is the cli for the {{ cookiecutter.project_slug }} project")
+    click_url = "https://click.palletsprojects.com/"
+    click.echo(f"See the click docs at {click_url} for more details")
     return 0
 
 

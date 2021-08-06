@@ -11,7 +11,7 @@ from {{ cookiecutter.project_slug }} import cli
 @pytest.mark.parametrize(
     "options,expected",
     [
-        ([], "{{ cookiecutter.project_slug }}.cli.main"),
+        ([], "{{ cookiecutter.project_slug }}"),
         (["--help"], "Usage: main [OPTIONS]"),
         (["--version"], f"main, version { {{ cookiecutter.project_slug }}.__version__ }\n"),
     ],

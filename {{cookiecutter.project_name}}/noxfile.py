@@ -1,5 +1,5 @@
 """Nox sessions."""
-import platform
+import platform  # noqa: F401
 import tempfile
 from typing import Any
 
@@ -45,12 +45,13 @@ def tests(session: Session) -> None:
     install_with_constraints(
         session, "invoke", "pytest", "xdoctest", "coverage[toml]", "pytest-cov"
     )
+    coverage_file_path = ".coverage.{platform.system()}.{platform.python_version()"
     try:
         session.run(
             "inv",
             "tests",
             env={
-                "COVERAGE_FILE": f".coverage.{platform.system()}.{platform.python_version()}",
+                "COVERAGE_FILE": f"{coverage_file_path}",
             },
         )
     finally:
@@ -61,7 +62,9 @@ def tests(session: Session) -> None:
 @nox.session
 def coverage(session: Session) -> None:
     """Produce the coverage report."""
-    args = session.posargs if session.posargs and len(session._runner.manifest) == 1 else []
+    cond = session.posargs and len(session._runner.manifest) == 1
+    args = session.posargs if cond else []
+
     install_with_constraints(session, "invoke", "coverage[toml]")
     session.run("inv", "coverage", *args)
 
