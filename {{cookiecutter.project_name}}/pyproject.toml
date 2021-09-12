@@ -75,6 +75,7 @@ xdoctest = "^0.15.4"
 coverage = {version = "^5.3", extras = ["toml"]}
 pytest-cov = "^2.10.1"
 watchdog = {version = "^2.0.2", extras = ["watchmedo"]}
+sphinx-markdown-tables = "^0.0.15"
 
 [tool.coverage.paths]
 source = ["src", "*/site-packages"]
