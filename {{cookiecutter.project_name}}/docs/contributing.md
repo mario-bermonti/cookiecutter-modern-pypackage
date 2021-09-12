@@ -16,6 +16,8 @@ This is a beginner-friendly project so don't hesitate to write a comment in the 
 interested in if you have questions, would like to discuss some issue further, or you need help
 in any way.
 
+If you
+
 ## Types of Contributions
 
 ### Spread the word
@@ -191,6 +193,9 @@ important details about making changes.
 
 9.  Submit a pull request through GitHub (see the `Pull Request Guidelines` section).
 
+
+Don't forget to add your name and github username to the [list of contributors][contributors].
+
 #### Pull Request Guidelines
 
 Before you submit a pull request, check that it meets these guidelines:
@@ -233,3 +238,4 @@ of cookiecutter-modern-pypackage on Github and Pypi.
 [cookiecutter-modern-pypackage_gh]: https://github.com/mario-bermonti/cookiecutter-modern-pypackage
 [commit_guide]: https://chris.beams.io/posts/git-commit/
 [release_guide]: ./release_guide.md
+[contributors]: ./contributors.rst
