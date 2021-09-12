@@ -9,6 +9,7 @@ Welcome to {{ cookiecutter.project_title }}'s documentation!
    usage
    modules
    changelog
+   contributing
 
 Indices and tables
 ==================

@@ -28,9 +28,24 @@
 
 TODO
 
+## Contributing to this project
+  All contributions are welcome!
+
+  Will find a detailed description of all the ways you can contribute to {{ cookiecutter.project_name }} in
+  [the contributing guide][contributing_guide].
+
+  This is a beginner-friendly project so don't hesitate to ask any questions or get in touch
+  with the project's maintainers.
+
+  Please review the [project's code of conduct][code_conduct] before making
+  any contributions.
+
+
 ## Credits
 
 This package was created with [Cookiecutter][cookiecutter] and the [mario-bermonti/cookiecutter-modern-pypackage][cookiecutter-modern-pypackage] project template.
 
 [cookiecutter]: https://github.com/cookiecutter/cookiecutter
 [cookiecutter-modern-pypackage]: https://github.com/mario-bermonti/cookiecutter-modern-pypackage
+
+[contributing_guide]: ./contributing.md
