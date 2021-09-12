@@ -44,6 +44,10 @@ extensions = [
 
 # Config for extensions
 ###################
+# default for autodoc
+autoclass_content = "both"
+autodoc_member_order = "bysource"
+
 # autodocsumm config
 autodoc_default_options = {"autosummary": True}
 
