@@ -40,10 +40,15 @@ extensions = [
     "recommonmark",
     "sphinx_rtd_theme",
     "autodocsumm",  # generate summary of class attributes
+    "sphinx_markdown_tables",  # format md tables correctly
 ]
 
 # Config for extensions
 ###################
+# default for autodoc
+autoclass_content = "both"
+autodoc_member_order = "bysource"
+
 # autodocsumm config
 autodoc_default_options = {"autosummary": True}
 
