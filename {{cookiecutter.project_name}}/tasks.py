@@ -134,11 +134,13 @@ def mypy(c):
     _run(c, f"poetry run mypy {PYTHON_TARGETS_STR}")
 
 
-@task()
-def tests(c):
-    # type: (Context) -> None
+@task(help={"verbose": "Run verbose tests (Default=False)"})
+def tests(c, verbose=False):
+    # type: (Context, bool) -> None
     """Run tests."""
     pytest_options = ["--xdoctest", "--cov", "--cov-report=", "--cov-fail-under=0"]
+    if verbose:
+        pytest_options.append("-v")
     _run(c, f"poetry run pytest {' '.join(pytest_options)} {TEST_DIR} {SOURCE_DIR}")
 
 
