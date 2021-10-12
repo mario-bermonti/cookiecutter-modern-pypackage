@@ -64,7 +64,7 @@ For more details, see the [tutorial][tutorial].
   All contributions are welcome!
 
   Will find a detailed description of all the ways you can contribute to cookiecutter-modern-pypackage in
-  [the contributing guide][contributing_guide].
+  [the contributing guide][contributing_guide] .
 
   This is a beginner-friendly project so don't hesitate to ask any questions or get in touch
   with the project's maintainers.
@@ -116,6 +116,6 @@ This template is also influenced by these awesome projects:
 [pypi]: https://pypi.org/
 [testpypi]: https://test.pypi.org/
 [code_conduct]: ./CODE_OF_CONDUCT.md
-[contributing_guide]: ./contributing.md
+[contributing_guide]: ./CONTRIBUTING.md
 [original_cookie]: https://github.com/fedejaure/cookiecutter-modern-pypackage
 [TezRomacH]: https://github.com/TezRomacH/python-package-template
