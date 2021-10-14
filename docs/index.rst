@@ -10,7 +10,7 @@ Getting Started
    readme
    tutorial
    changelog
-   Contributing <CONTRIBUTING.md>
+   Contributing <CONTRIBUTING>
    Code of Conduct <CODE_OF_CONDUCT>
 
 Basics
