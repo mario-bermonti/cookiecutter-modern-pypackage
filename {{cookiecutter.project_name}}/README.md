@@ -39,7 +39,7 @@ Check [the documentation][project_docs] for more details.
 ## Contributing to this project
   All contributions are welcome!
 
-  Will find a detailed description of all the ways you can contribute to stimpool in
+  Will find a detailed description of all the ways you can contribute to {{ cookiecutter.project_name }} in
   [the contributing guide][contributing_guide].
 
   This is a beginner-friendly project so don't hesitate to ask any questions or get in touch
