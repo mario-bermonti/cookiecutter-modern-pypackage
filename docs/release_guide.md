@@ -1,8 +1,8 @@
 # Release guide
 
-This guide describes how to release stimpool on Github and Pypi.
+This guide describes how to release cookiecutter-modern-pypackage on Github and Pypi.
 
-1. Create new branch named `bump-stimpool-version-[version-number]`.
+1. Create new branch named `bump-cookiecutter-modern-pypackage-version-[version-number]`.
 2. Add a label to the branch that describes the part of the version number that
    will be bumped. Possible parts are major, minor, and patch.
 3. Bump the version
