@@ -64,7 +64,7 @@ For more details, see the [tutorial][tutorial].
   All contributions are welcome!
 
   Will find a detailed description of all the ways you can contribute to cookiecutter-modern-pypackage in
-  [the contributing guide][contributing_guide] .
+  the [contributing guide][contributing_guide].
 
   This is a beginner-friendly project so don't hesitate to ask any questions or get in touch
   with the project's maintainers.
