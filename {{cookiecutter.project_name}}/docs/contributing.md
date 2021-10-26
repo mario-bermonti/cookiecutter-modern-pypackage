@@ -16,19 +16,17 @@ This is a beginner-friendly project so don't hesitate to write a comment in the 
 interested in if you have questions, would like to discuss some issue further, or you need help
 in any way.
 
-If you
-
 ## Types of Contributions
 
 ### Spread the word
-Tell others about your experience with cookiecutter-modern-pypackage. You can share it on social media and follow it on GitHub.
+Tell others about your experience with {{ cookiecutter.project_name }}. You can share it on social media and follow it on GitHub.
 
 ### Submit Feedback
 
 The best way to send feedback is to file an issue at
- <https://github.com/mario-bermonti/cookiecutter-modern-pypackage/issues>.
+ <https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_name }}/issues>.
 
-Please let us know about your experience using cookiecutter-modern-pypackage. You can tell us about the things that you like, the things that can be improved, and the things that you would like cookiecutter-modern-pypackage to do.
+Please let us know about your experience using {{ cookiecutter.project_name }}. You can tell us about the things that you like, the things that can be improved, and the things that you would like {{ cookiecutter.project_name }} to do.
 
 If you are proposing a feature:
 
@@ -40,7 +38,7 @@ If you are proposing a feature:
 
 ### Write Documentation
 
-cookiecutter-modern-pypackage could always use more documentation. You can contribute to the documentation
+{{ cookiecutter.project_name }} could always use more documentation. You can contribute to the documentation
 by:
 - Fixing typographical, grammatical, or spelling errors.
 - Improving documentation that is unclear or incorrect.
@@ -48,7 +46,7 @@ by:
 - Writing blog posts, articles, and similar content that share how you are using this project and your best practices with us.
 
 ### Report Bugs
-  You can report bugs at <https://github.com/mario-bermonti/cookiecutter-modern-pypackage/issues>.
+  You can report bugs at <https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_name }}/issues>.
 
   Please provide all the details that are asked when you create the issue to make sure
   it is understood correctly.
@@ -69,14 +67,14 @@ implement it.
 ### Set up the development environment
 
 Ready to contribute? Here\'s how to set up
-cookiecutter-modern-pypackage in your local development environment.
+{{ cookiecutter.project_name }} in your local development environment.
 
 You will need [Python 3.6+][download_python] installed.
 
-1.  Fork the [cookiecutter-modern-pypackage repo][cookiecutter-modern-pypackage_gh] on GitHub.
+1.  Fork the [{{ cookiecutter.project_name }} repo][{{ cookiecutter.project_name }}_gh] on GitHub.
 2.  Clone your fork locally:
 
-        git clone git@github.com:your_name_here/cookiecutter-modern-pypackage.git
+        git clone git@github.com:your_name_here/{{ cookiecutter.project_name }}.git
 
 3. We use `poetry` to manage dependencies. Install it with the following command.
 
@@ -177,7 +175,7 @@ important details about making changes.
         $ git add .
         $ git commit
 
-    Cookiecutter-Modern-Pypackage follows specific guidelines for commit messages:
+    {{ cookiecutter.project_name }} follows specific guidelines for commit messages:
 
     - Make a reference to the relevant GitHub issues in your commit message (e.g., `Fix #1234`)
       We use imperative mood for commit messages (`fix x`, instead of `fixed x`).
@@ -192,9 +190,6 @@ important details about making changes.
         $ git push origin name-of-your-bugfix-or-feature
 
 9.  Submit a pull request through GitHub (see the `Pull Request Guidelines` section).
-
-
-Don't forget to add your name and github username to the [list of contributors][contributors].
 
 #### Pull Request Guidelines
 
@@ -220,10 +215,10 @@ improve the probability that your changes are accepted.
 - It is recommended to open an issue before starting work on anything. This will allow a chance to
   talk it over with the maintainers and validate your approach.
 
-## Releasing cookiecutter-modern-pypackage
+## Releasing {{ cookiecutter.project_name }}
 
 Maintainers, please review [the guide for releasing new versions][release_guide]
-of cookiecutter-modern-pypackage on Github and Pypi.
+of {{ cookiecutter.project_name }} on Github and Pypi.
 
 
 <!-- Credits -->
@@ -235,7 +230,6 @@ of cookiecutter-modern-pypackage on Github and Pypi.
 <!-- https://github.com/pandas-dev/pandas/blob/master/doc/source/development/contributing.rst#committing-your-code -->
 
 [download_python]: https://www.python.org/downloads/
-[cookiecutter-modern-pypackage_gh]: https://github.com/mario-bermonti/cookiecutter-modern-pypackage
+[{{ cookiecutter.project_name }}_gh]: https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_name }}
 [commit_guide]: https://chris.beams.io/posts/git-commit/
 [release_guide]: ./release_guide.md
-[contributors]: ./contributors.rst
