@@ -116,6 +116,6 @@ This template is also influenced by these awesome projects:
 [pypi]: https://pypi.org/
 [testpypi]: https://test.pypi.org/
 [code_conduct]: ./CODE_OF_CONDUCT.md
-[contributing_guide]: ./CONTRIBUTING.md
+[contributing_guide]: ./contributing.md
 [original_cookie]: https://github.com/fedejaure/cookiecutter-modern-pypackage
 [TezRomacH]: https://github.com/TezRomacH/python-package-template
