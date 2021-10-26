@@ -29,3 +29,7 @@ This guide describes how to release {{ cookiecutter.project_name }} on Github an
    - Add a summary of the changes
    - Revise the draft and make any appropriate changes
 9. Publish the draft on GitHub
+
+The release will be automatically published on pypi. Please check the [GitHub action named
+release pypi](https://github.com/{{ cookiecutter.project_name }}/{{ cookiecutter.project_name }}/actions "release ci")
+passed and check everything is correct in [pypi](https://pypi.org/project/{{ cookiecutter.project_name }}/).
