@@ -175,7 +175,7 @@ important details about making changes.
         $ git add .
         $ git commit
 
-    {{ Cookiecutter.Project_Name }} follows specific guidelines for commit messages:
+    {{ cookiecutter.project_name }} follows specific guidelines for commit messages:
 
     - Make a reference to the relevant GitHub issues in your commit message (e.g., `Fix #1234`)
       We use imperative mood for commit messages (`fix x`, instead of `fixed x`).
