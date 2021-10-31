@@ -10,6 +10,7 @@ Welcome to {{ cookiecutter.project_title }}'s documentation!
    modules
    changelog
    contributing
+   Code of Conduct <CODE_OF_CONDUCT>
 
 Indices and tables
 ==================
