@@ -6,6 +6,7 @@ PROJECT_DIR = Path.cwd()
 PROJECT_TESTS = PROJECT_DIR / Path("tests")
 PROJECT_SRC = PROJECT_DIR / Path("src/{{ cookiecutter.project_slug }}")
 PROJECT_DOCS = PROJECT_DIR / Path("docs")
+PROJECT_CI_RELEASE_PYPI = PROJECT_DIR / Path(".github/workflows/release_pypi.yml")
 
 
 def remove_file(filepath: Union[str, Path]) -> None:
@@ -32,6 +33,9 @@ if __name__ == "__main__":
         remove_file("LICENSE.rst")
     else:
         add_symlink(PROJECT_DOCS / "license.rst", "../LICENSE.rst")
+
+    if "no" == "{{ cookiecutter.publish_pypi }}":
+        remove_file(PROJECT_CI_RELEASE_PYPI)
 
     add_symlink(PROJECT_DOCS / "readme.md", "../README.md")
     add_symlink(PROJECT_DOCS / "changelog.md", "../CHANGELOG.md")
