@@ -218,7 +218,7 @@ improve the probability that your changes are accepted.
 ## Releasing {{ cookiecutter.project_name }}
 
 Maintainers, please review [the guide for releasing new versions][release_guide]
-of {{ cookiecutter.project_name }} on Github and Pypi.
+of {{ cookiecutter.project_name }}.
 
 
 <!-- Credits -->

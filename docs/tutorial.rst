@@ -6,7 +6,7 @@ Tutorial
 
 .. _`Edit this file`: https://github.com/mario-bermonti/cookiecutter-modern-pypackage/blob/master/docs/tutorial.rst
 
-To start with, you will need a `GitHub account`_ and an account on `PyPI`_. Create these before you get started on this tutorial. If you are new to Git and GitHub, you should probably spend a few minutes on some of the tutorials at the top of the page at `GitHub Help`_.
+To start with, you will need a `GitHub account`_ and an account on `PyPI`_. You only need the Pypi account if you want to publish to pypi. Create these before you get started on this tutorial. If you are new to Git and GitHub, you should probably spend a few minutes on some of the tutorials at the top of the page at `GitHub Help`_.
 
 .. _`GitHub account`: https://github.com/
 .. _`PyPI`: https://pypi.python.org/pypi
@@ -104,21 +104,20 @@ Now your documentation will get rebuilt when you make documentation changes to y
 
 .. _`Read the Docs`: https://readthedocs.org/
 
-Step 7: Release on PyPI and TestPyPI
+Step 7: Release on PyPI
 ------------------------------------
+
+.. note:: This section only applies if you want to publish your project to PyPI.
 
 The Python Package Index or `PyPI`_ is the official third-party software repository for the Python programming language. Python developers intend it to be a comprehensive catalog of all open source Python packages.
 
-`TestPyPI`_ is a separate instance of the Python Package Index (`PyPI`_) that allows you to try out the distribution tools and process without worrying about affecting the real index.
+Log into your account at `PyPI`_. Go to Account Settings and generate an API tokens.
 
-Log into your account at `PyPI`_ and `TestPyPI`_. Go to Account Settings and generate an API tokens.
-
-Go to the repository settings on GitHub, and add tow secrets named `PYPI_TOKEN` and `TEST_PYPI_TOKEN` with the tokens that you just generated.
+Go to the repository settings on GitHub, and add tow secrets named `PYPI_TOKEN` with the tokens that you just generated.
 
 Release your package by pushing a new tag.
 
 .. _`PyPI`: https://pypi.python.org/pypi
-.. _`TestPyPI`: https://test.pypi.org/
 
 Having problems?
 ----------------

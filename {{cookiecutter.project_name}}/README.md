@@ -2,8 +2,10 @@
 # {{ cookiecutter.project_title }}
 
 {% if is_open_source %}
+  {% if cookiecutter.publish_pypi == "yes" %}
 [![PyPI - Version](https://img.shields.io/pypi/v/{{ cookiecutter.project_name }}.svg)](https://pypi.python.org/pypi/{{ cookiecutter.project_name }})
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/{{ cookiecutter.project_name }}.svg)](https://pypi.python.org/pypi/{{ cookiecutter.project_name }})
+  {% endif %}
 ![GitHub](https://img.shields.io/github/license/mario-bermonti/{{ cookiecutter.project_name }})
 [![Tests](https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_name }}/workflows/tests/badge.svg)](https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_name }}/actions?workflow=tests)
 [![Codecov](https://codecov.io/gh/{{ cookiecutter.github_username }}/{{ cookiecutter.project_name }}/branch/master/graph/badge.svg?token=YOURTOKEN)](https://codecov.io/gh/{{ cookiecutter.github_username }}/{{ cookiecutter.project_name }})

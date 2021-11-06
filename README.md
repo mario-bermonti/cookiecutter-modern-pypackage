@@ -32,7 +32,7 @@
 * Command line interface using [Click][click] (optional)
 * Automated dependency updates with [Dependabot][dependabot]
 * Coverage reports on [Codecov][codecov]
-* Automated releases to [PyPI][pypi] and [TestPyPI][testpypi]
+* Automated releases to [PyPI][pypi]  (optional)
 
 ## Quickstart
 
@@ -55,7 +55,7 @@ Then:
 * Install pre-commit hooks. (`poetry run inv install-hooks`)
 * Configure [Codecov][codecov] repository settings. (Codecov App, `CODECOV_TOKEN`)
 * Add the repo to your [Read the Docs][rtd] account + turn on the Read the Docs service hook.
-* Configure [PyPI][pypi] and [TestPyPI][testpypi] tokens. (`PYPI_TOKEN`, `TEST_PYPI_TOKEN`)
+* Configure [PyPI][pypi] token. (`PYPI_TOKEN`)
 * Release your package by pushing a new tag.
 
 For more details, see the [tutorial][tutorial].

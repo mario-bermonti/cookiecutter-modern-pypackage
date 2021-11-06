@@ -1,6 +1,6 @@
 # Release guide
 
-This guide describes how to release {{ cookiecutter.project_name }} on Github and Pypi.
+This guide describes how to release {{ cookiecutter.project_name }}.
 
 1. Create new branch named `bump-{{ cookiecutter.project_name }}-version-[version-number]`.
 2. Add a label to the branch that describes the part of the version number that
@@ -30,6 +30,8 @@ This guide describes how to release {{ cookiecutter.project_name }} on Github an
    - Revise the draft and make any appropriate changes
 9. Publish the draft on GitHub
 
+{% if cookiecutter.publish_pypi == "yes" %}
 The release will be automatically published on pypi. Please check the [GitHub action named
 release pypi](https://github.com/{{ cookiecutter.project_name }}/{{ cookiecutter.project_name }}/actions "release ci")
 passed and check everything is correct in [pypi](https://pypi.org/project/{{ cookiecutter.project_name }}/).
+{% endif %}
