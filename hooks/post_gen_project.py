@@ -35,3 +35,4 @@ if __name__ == "__main__":
 
     add_symlink(PROJECT_DOCS / "readme.md", "../README.md")
     add_symlink(PROJECT_DOCS / "changelog.md", "../CHANGELOG.md")
+    add_symlink(PROJECT_DOCS / "CODE_OF_CONDUCT.md", "../CODE_OF_CONDUCT.md")
