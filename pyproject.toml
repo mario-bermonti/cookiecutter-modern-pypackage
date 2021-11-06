@@ -37,8 +37,8 @@ autodocsumm = "^0.2.4"
 [tool.poetry.dev-dependencies]
 # testing
 pytest = "^6.2.2"
-pytest-cookies = {git = "https://github.com/jayvdb/pytest-cookies.git", rev = "rm-pins"}
 xdoctest = "^0.15.4"
+pytest-cookies = "^0.6.1"
 
 # linting
 flake8 = "^3.8.4"
