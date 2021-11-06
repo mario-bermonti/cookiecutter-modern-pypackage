@@ -101,6 +101,19 @@ skip = "{{ cookiecutter.project_name }}"
 line-length = 88
 target-version = ["py36"]
 
+[tool.mypy]
+allow_redefinition = true
+ignore_errors = false
+ignore_missing_imports = true
+implicit_reexport = false
+local_partial_types = true
+strict_optional = true
+strict_equality = true
+no_implicit_optional = true
+warn_unused_ignores = true
+warn_unreachable = true
+warn_no_return = true
+
 [build-system]
 requires = ["poetry>=0.12"]
 build-backend = "poetry.masonry.api"
