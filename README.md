@@ -106,7 +106,7 @@ This template is also influenced by these awesome projects:
 [sphinx]: https://www.sphinx-doc.org/en/master/
 [rtd]: https://readthedocs.org/
 [nox]: https://nox.thea.codes/en/stable/
-[tutorial]: https://cookiecutter-modern-pypackage.readthedocs.io/en/latest/tutorial.html
+[tutorial]: https://cookiecutter-modern-python-package.readthedocs.io/en/latest/tutorial.html
 [click]: http://click.pocoo.org/
 [dependabot]: https://dependabot.com/
 [audreyr/cookiecutter-pypackage]: https://github.com/audreyr/cookiecutter-pypackage
