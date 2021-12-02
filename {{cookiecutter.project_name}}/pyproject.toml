@@ -44,7 +44,7 @@ classifiers=[
 {% endif %}
 
 [tool.poetry.dependencies]
-python = "<3.10,>=3.6.1"
+python = "^3.6.2"
 {% if cookiecutter.command_line_interface|lower == 'click' %}
 click = "^7.1.2"
 {% endif %}
@@ -78,7 +78,7 @@ recommonmark = "^0.7.1"
 
 # formatting
 isort = "^5.7.0"
-black = "^20.8b1"
+black = "^21.10b0"
 
 # multi-purpose or other
 pre-commit = "^2.11.1"
