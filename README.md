@@ -21,7 +21,7 @@
 * Testing setup with [Pytest][pytest]
 * [Github Actions][github actions] ready for Continuous Integration testing
 * Linting provided by [Flake8][flake8] with [Flakehell][flakehell]
-* Docstring linting provided by [Darglint][darglint] using the [Google Python Style Guide][google styleguide]
+* Docstring linting provided by [Darglint][darglint] using the [Numpy Python Style Guide][numpy styleguide]
 * Static type checking by [Mypy][mypy]
 * Formatting provided by [Black][black] and [Isort][isort]
 * Checks dependencies for known security vulnerabilities with [Safety][safety]
@@ -101,7 +101,7 @@ This template is also influenced by these awesome projects:
 [mypy]: https://github.com/python/mypy
 [pre-commit]: https://pre-commit.com/
 [safety]: https://github.com/pyupio/safety
-[google styleguide]: https://google.github.io/styleguide/pyguide.html
+[numpy styleguide]: https://numpydoc.readthedocs.io/en/latest/format.html
 [invoke]: https://www.pyinvoke.org/
 [sphinx]: https://www.sphinx-doc.org/en/master/
 [rtd]: https://readthedocs.org/

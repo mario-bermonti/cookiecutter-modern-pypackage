@@ -114,7 +114,7 @@ directory = "htmlcov"
 format = "grouped"
 max_line_length = 88
 show_source = true
-docstring-convention = "google"
+docstring-convention = "numpy"
 extended_default_ignore = []  # added to temporarily fix flakehell issue
 
 [tool.flakehell.plugins]
