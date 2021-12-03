@@ -10,6 +10,9 @@ jobs:
         os: [Ubuntu, MacOS, Windows]
         python-version: [3.6, 3.7, 3.8, 3.9]
       fail-fast: false
+    defaults:
+      run:
+        shell: bash
     steps:
       - uses: actions/checkout@v2.3.4
 
@@ -18,19 +21,22 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
 
-      - name: Install system deps
-        shell: bash
+      - name: Install nox
         run: |
-          pip install --constraint=.github/workflows/constraints.txt nox poetry poetry-core
-          poetry config virtualenvs.in-project true
+          pip install nox==2021.6.12
+
+      - name: Install and configure Poetry
+        uses: snok/install-poetry@v1.3.0
+        with:
+          version: 1.1.12
+          virtualenvs-create: true
+          virtualenvs-in-project: false
 
       - name: Run tests with nox
-        shell: bash
         run: nox --force-color -s tests-${{ matrix.python-version }}
 
       - name: Run safety check
         if: matrix.python-version == 3.9 && matrix.os == 'Ubuntu'
-        shell: bash
         run: nox --force-color -s safety
 
       - name: Upload coverage data
