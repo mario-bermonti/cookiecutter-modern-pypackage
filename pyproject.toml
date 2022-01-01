@@ -62,7 +62,7 @@ sphinx-markdown-tables = "^0.0.15"
 
 # formatting
 isort = "^5.7.0"
-black = "^21.11b1"
+black = "^21.12b0"
 
 # multi-purpose or other
 pre-commit = "^2.16.0"
