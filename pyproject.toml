@@ -32,7 +32,7 @@ classifiers=[
 
 [tool.poetry.dependencies]
 python = "^3.6.2"
-autodocsumm = "^0.2.4"
+autodocsumm = "^0.2.8"
 
 [tool.poetry.dev-dependencies]
 # testing
