@@ -37,7 +37,7 @@ autodocsumm = "^0.2.4"
 [tool.poetry.dev-dependencies]
 # testing
 pytest = "^6.2.2"
-xdoctest = "^0.15.4"
+xdoctest = "^1.0.1"
 pytest-cookies = "^0.6.1"
 
 # linting
